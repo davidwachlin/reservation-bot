@@ -1,0 +1,9 @@
+const express = require('express');
+
+const router = express.Router();
+
+module.exports = (params) => {
+  const { config } = params;
+
+  return router;
+};
